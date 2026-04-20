@@ -11,12 +11,13 @@ pentest reports in Markdown using Groq AI (free tier).
 python3 burpreport.py export.xml -o report.md
 ```
 BurpReport AI
-[] Parsing: export.xml
-[+] 3 requests found
-[] Analyzing item 1/3: POST /login
-[] Analyzing item 2/3: GET /admin
-[] Analyzing item 3/3: GET /api/users
-[+] Report saved: report.md
+- [] Parsing: export.xml
+- [+] 3 requests found
+- [] Analyzing item 1/3: POST /login
+- [] Analyzing item 2/3: GET /admin
+- [] Analyzing item 3/3: GET /api/users
+- [+] Report saved: report.md
+
 ## Features
 
 - Parses Burp Suite XML exports automatically
