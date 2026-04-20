@@ -1,2 +1,12 @@
-# burpreport-ai
-It reads a Burp Suite file (XML export) and automatically generates a professional penetration testing report in Markdown format, including severity ratings, descriptions, and remediation steps. 
+# BurpReport AI 🔍
+
+AI-powered security report generator from Burp Suite exports.
+
+Analyze HTTP requests automatically and generate professional 
+pentest reports in Markdown using Groq AI (free tier).
+
+## Demo
+
+```bash
+python3 burpreport.py export.xml -o report.md
+```
